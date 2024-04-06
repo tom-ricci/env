@@ -1,0 +1,35 @@
+{
+    "name": "uwu",
+    // ubuntu base container
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        // intellij will cry if we dont have a jdk
+        "ghcr.io/devcontainers/features/java:1": {}
+    },
+    // this is 1. for git and 2. for docker with docker
+    "workspaceFolder": "${localWorkspaceFolder}",
+	"workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind",
+	// sync intellij settings and plugins between this container and my local machine
+	"mounts": [
+        {
+            "source": "~/.idealu/config",
+            "target": "/home/thomas/.idealu/config",
+            "type": "bind"
+        },
+        {
+            "source": "~/.idealu/system",
+            "target": "/home/thomas/.idealu/system",
+            "type": "bind"
+        },
+        {
+            "source": "~/.idealu/plugins",
+            "target": "/home/thomas/.idealu/plugins",
+            "type": "bind"
+        },
+        {
+            "source": "~/.idealu/logs",
+            "target": "/home/thomas/.idealu/logs",
+            "type": "bind"
+        }
+    ]
+}
