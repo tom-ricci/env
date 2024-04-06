@@ -15,16 +15,6 @@
             "source": "/home/thomas/.idealu/config",
             "target": "/home/thomas/.idealu/config",
             "type": "bind"
-        },
-        {
-            "source": "/home/thomas/.idealu/plugins",
-            "target": "/home/thomas/.idealu/plugins",
-            "type": "bind"
-        },
-        {
-            "source": "/home/thomas/.idealu/logs",
-            "target": "/home/thomas/.idealu/logs",
-            "type": "bind"
         }
     ]
 }
