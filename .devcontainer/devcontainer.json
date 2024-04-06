@@ -10,11 +10,11 @@
     "workspaceFolder": "${localWorkspaceFolder}",
 	"workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind",
 	// sync intellij settings and plugins between this container and my local machine
-	"mounts": [
-        {
-            "source": "/home/thomas/.idealu/config",
-            "target": "/home/thomas/.idealu/config",
-            "type": "bind"
-        }
-    ]
+	// "mounts": [
+    //     {
+    //         "source": "/home/thomas/.idealu/config",
+    //         "target": "/home/thomas/.idealu/config",
+    //         "type": "bind"
+    //     }
+    // ]
 }
