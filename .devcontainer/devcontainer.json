@@ -12,22 +12,22 @@
 	// sync intellij settings and plugins between this container and my local machine
 	"mounts": [
         {
-            "source": "~/.idealu/config",
+            "source": "/home/thomas/.idealu/config",
             "target": "/home/thomas/.idealu/config",
             "type": "bind"
         },
         {
-            "source": "~/.idealu/system",
+            "source": "/home/thomas/.idealu/system",
             "target": "/home/thomas/.idealu/system",
             "type": "bind"
         },
         {
-            "source": "~/.idealu/plugins",
+            "source": "/home/thomas/.idealu/plugins",
             "target": "/home/thomas/.idealu/plugins",
             "type": "bind"
         },
         {
-            "source": "~/.idealu/logs",
+            "source": "/home/thomas/.idealu/logs",
             "target": "/home/thomas/.idealu/logs",
             "type": "bind"
         }
