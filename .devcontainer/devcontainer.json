@@ -17,11 +17,6 @@
             "type": "bind"
         },
         {
-            "source": "/home/thomas/.idealu/system",
-            "target": "/home/thomas/.idealu/system",
-            "type": "bind"
-        },
-        {
             "source": "/home/thomas/.idealu/plugins",
             "target": "/home/thomas/.idealu/plugins",
             "type": "bind"
